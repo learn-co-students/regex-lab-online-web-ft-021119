@@ -1,7 +1,13 @@
+require 'pry'
 def starts_with_a_vowel?(word)
-
+#  binding.pry
+  vowels = %w(a e i o u)
+    word.capaitalize.start_with?(*vowels)
+      return true
+    else
+      false
+    end
 end
-
 def words_starting_with_un_and_ending_with_ing(text)
 
 end
